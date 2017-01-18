@@ -1,0 +1,14 @@
+{
+    "codepen": {
+        "height": "265",
+        "theme_id": "dark",
+        "slug_hash": null,
+        "default_tab": "result",
+        "user": null,
+        "user_name": null,
+        "embed_version": "2",
+        "pen_title": null,
+        "class": "codepen",
+        "placeholder": "See the Pen <a href=\"https://codepen.io/${user}/pen/${slug_hash}/\">${pen_title}</a> by ${user_name} (<a href=\"http://codepen.io/${user}\">@${user}</a>) on <a href=\"http://codepen.io\">CodePen</a>."
+    }
+}
