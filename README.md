@@ -86,4 +86,4 @@ See the Pen <a href="https://codepen.io/${user}/pen/${slug_hash}/">${pen_title}<
 License
 -------
 
-[MIT](https://github.com/markdown-it-code-embed/markdown-it-code-embed/blob/master/LICENSE)
+[MIT](https://github.com/neilrussell6/markdown-it-code-embed/blob/master/LICENSE)
