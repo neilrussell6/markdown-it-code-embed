@@ -1,47 +1,45 @@
 {
-    "name": "markdown-it-code-embed",
-    "version": "0.0.1",
-    "description": "Code embed plugin for markdown-it markdown parser that allows you to add embeds from services like Codepen to your markdown.",
-    "author": "Neil Russell <neilrussell6@gmail.com>",
-    "keywords": [
-        "markdown-it-plugin",
-        "markdown-it",
-        "markdown",
-        "code embed",
-        "codepen markdown-it plugin",
-        "codepen markdown-it",
-        "codepen markdown",
-        "codepen"
-    ],
-    "main": "src/index.js",
-    "homepage": "https://github.com/neilrussell6/markdown-it-code-embed",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/neilrussell6/markdown-it-code-embed.git"
-    },
-    "bugs": {
-        "url": "https://github.com/neilrussell6/markdown-it-code-embed/issues"
-    },
-    "scripts": {
-        "help": "make help",
-        "lint": "make lint",
-        "test": "make test",
-        "coverage": "make coverage",
-        "todo": "make todo"
-    },
-    "devDependencies": {
-        "babel-eslint": "^6.1.2",
-        "chai": "^3.5.0",
-        "coveralls": "^2.11.2",
-        "deep-freeze": "0.0.1",
-        "eslint": "^3.13.1",
-        "eslint-config-airbnb": "^14.0.0",
-        "istanbul": "*",
-        "mocha": "*",
-        "ndoc": "^5.0.1",
-        "sinon": "^1.17.7",
-        "standard": "^8.6.0",
-        "uglify-js": "*"
-    },
-    "license": "MIT"
+  "name": "markdown-it-code-embed",
+  "version": "0.0.1",
+  "description": "Code embed plugin for markdown-it markdown parser that allows you to add embeds from services like Codepen to your markdown.",
+  "author": "Neil Russell <neilrussell6@gmail.com>",
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "code embed",
+    "codepen markdown-it plugin",
+    "codepen markdown-it",
+    "codepen markdown",
+    "codepen"
+  ],
+  "main": "src/index.js",
+  "homepage": "https://github.com/neilrussell6/markdown-it-code-embed",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neilrussell6/markdown-it-code-embed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neilrussell6/markdown-it-code-embed/issues"
+  },
+  "scripts": {
+    "help": "make help",
+    "lint": "make lint",
+    "test": "make test",
+    "coverage": "make coverage",
+    "todo": "make todo"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.2",
+    "deep-freeze": "0.0.1",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "istanbul": "*",
+    "mocha": "*",
+    "sinon": "^1.17.7",
+    "uglify-js": "*"
+  },
+  "license": "MIT"
 }
