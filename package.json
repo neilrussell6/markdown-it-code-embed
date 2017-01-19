@@ -38,8 +38,7 @@
     "eslint-config-airbnb": "^14.0.0",
     "istanbul": "*",
     "mocha": "*",
-    "sinon": "^1.17.7",
-    "uglify-js": "*"
+    "sinon": "^1.17.7"
   },
   "license": "MIT"
 }

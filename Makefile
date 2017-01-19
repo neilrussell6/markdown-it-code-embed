@@ -25,7 +25,7 @@ lint:
 	eslint . --ignore-pattern "src/**/*.spec.js"
 
 test: lint
-	mocha -R spec "src/**/*.spec.js" -w
+	mocha -R spec "src/**/*.spec.js"
 
 test-w: lint
 	mocha -R spec "src/**/*.spec.js" -w
