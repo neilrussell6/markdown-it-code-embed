@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-code-embed",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Code embed plugin for markdown-it markdown parser that allows you to add embeds from services like Codepen to your markdown.",
   "author": "Neil Russell <neilrussell6@gmail.com>",
   "keywords": [
