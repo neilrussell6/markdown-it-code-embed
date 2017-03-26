@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #------------------------------
 # vars
 #------------------------------
@@ -95,5 +97,5 @@ todo:
 	@grep 'TODO' -n -r ./src --colour=always
 	@echo
 
-.PHONY: lint test test-w coverage publish todo
+.PHONY: lint test coverage publish todo
 .SILENT: lint test
