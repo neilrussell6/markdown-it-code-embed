@@ -2,15 +2,18 @@ extends: "eslint:recommended"
 
 parser: "babel-eslint"
 
+env:
+    node:       true
+    browser:    false
+    mocha:      true
+
 parserOptions:
     ecmaVersion:    6
     sourceType:     "module"
     allowImportExportEverywhere: false
 
-env:
-    node:     true
-    browser:  false
-
 rules:
-    no-unused-vars: "off"
-    no-console: "off"
+    no-unused-vars: 0
+    no-console: 1
+    no-case-declarations: 0
+    semi: 2

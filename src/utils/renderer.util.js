@@ -6,7 +6,7 @@ const UTILS = {
     [ SERVICE_KEY_CODEPEN ]: CodepenUtil
 };
 
-function render(tokens, key, options, _env) {
+function render(tokens, key, options, env) {
 
     let _token = tokens[key];
 

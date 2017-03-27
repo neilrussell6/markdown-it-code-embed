@@ -1,7 +1,6 @@
 'use strict';
 
 const chai = require('chai');
-const sinon = require('sinon');
 const deepFreeze = require('deep-freeze');
 
 const expect = chai.expect;
