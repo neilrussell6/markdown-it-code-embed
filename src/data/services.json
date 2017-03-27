@@ -1,14 +1,16 @@
 {
-    "codepen": {
-        "height": "265",
-        "theme_id": "dark",
-        "slug_hash": null,
-        "default_tab": "result",
-        "user": null,
-        "user_name": null,
-        "embed_version": "2",
-        "pen_title": null,
-        "class": "codepen",
-        "placeholder": "See the Pen <a href=\"https://codepen.io/${user}/pen/${slug_hash}/\">${pen_title}</a> by ${user_name} (<a href=\"http://codepen.io/${user}\">@${user}</a>) on <a href=\"http://codepen.io\">CodePen</a>."
-    }
+  "codepen": {
+    "class": "codepen",
+    "default_tab": "result",
+    "embed_version": "2",
+    "height": "265",
+    "iframe": true,
+    "pen_title": null,
+    "placeholder": "See the Pen <a href=\"https://codepen.io/${user}/pen/${slug_hash}/\">${pen_title}</a> by ${user_name} (<a href=\"http://codepen.io/${user}\">@${user}</a>) on <a href=\"http://codepen.io\">CodePen</a>.",
+    "slug_hash": null,
+    "theme_id": "dark",
+    "user": null,
+    "user_name": null
+  }
 }
+

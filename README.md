@@ -25,19 +25,19 @@ md.use(require('markdown-it-code-embed'));
 
 ##### in your markdown
 
-you can provide just the slug hash for your codepen embed like this:
+You can provide just the slug hash for your Codepen embed like this:
 
 ```markdown
 @[codepen](ABC)
 ```
 
-or you can provide just the slug hash & pen title like this:
+Or you can provide just the slug hash & pen title like this:
 
 ```markdown
 @[codepen](ABC,My Pen)
 ```
 
-or you can provide all the config options (must be valid json, and must be on a single line), like this:
+Or you can provide all the config options (must be valid json, and must be on a single line), like this:
 
 ```markdown
 @[codepen]({"slug_hash":"ABC", "pen_title":"My Pen"})
@@ -63,22 +63,23 @@ Configs can be set directly in your markdown as per above examples, or passed in
 ```javascript
 const md = require('markdown-it')();
 md.use(require('markdown-it-code-embed'), {
-    user: "johnsnow"
+    user: "yourname"
 });
 ```
 
 #### Codepen options
 
- * **height** (default = 265)
- * **theme_id** (default = dark)
- * **slug_hash** (default = null)
+ * **class** (default = codepen)
  * **default_tab** (default = result)
+ * **embed_version** (default = 2)
+ * **height** (default = 265)
+ * **iframe** (default = true)
+ * **slug_hash** (default = null)
+ * **pen_title** (default = null)
+ * **theme_id** (default = dark)
  * **user** (default = null)
  * **user_name** (default = null)
- * **embed_version** (default = 2)
- * **pen_title** (default = null)
- * **class** (default = codepen)
- * **palceholder** *accepts variables* (default = 
+ * **palceholder** *accepts variables* (default =
 ```html
 See the Pen <a href="https://codepen.io/${user}/pen/${slug_hash}/">${pen_title}</a> by ${user_name} (<a href="http://codepen.io/${user}">@${user}</a>) on <a href="http://codepen.io">CodePen</a>.
 ```
