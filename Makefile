@@ -131,9 +131,9 @@ test-w: jslint
 #------------------------------
 
 coverage: jslint
-	rm -rf "$(DIR_COVERAGE)"
-	NODE_PATH="$(DIR_SRC)" babel-node "$(DIR_BIN)/"babel-istanbul cover --root "$(DIR_SRC)" "$(DIR_BIN)/"_mocha -- "$(FILES_TEST)" -R dot --compilers js:babel-register,css:ignore-import ; exit 0
-	google-chrome "$$(pwd)/coverage/lcov-report/index.html"
+	@rm -rf "$(DIR_COVERAGE)"
+	@NODE_PATH="$(DIR_SRC)" babel-node "$(DIR_BIN)/"babel-istanbul cover --root "$(DIR_SRC)" "$(DIR_BIN)/"_mocha -- "$(FILES_TEST)" -R dot --compilers js:babel-register,css:ignore-import ; exit 0
+	@google-chrome "$$(pwd)/coverage/lcov-report/index.html"
 
 #------------------------------
 # report-coverage
@@ -201,7 +201,7 @@ publish: jslint test
 	if [ $(NPM) = 1 ] ; \
 		then \
 			npm publish ${GITHUB_PROJECT}/tarball/$${version} ; \
-			$(call echo_success, New NPM release for v$${version} successfully created) ; \
+			$(call echo_success, New NPM release for $${version} successfully created) ; \
 	fi
 
 #------------------------------
