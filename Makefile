@@ -151,7 +151,7 @@ report-coverage:
 # Pushes local repo to GitHub.
 #------------------------------
 
-push: sasslint jslint test
+push: jslint test
 	@if [ "$(GIT_MODIFIED_FILE_COUNT)" != "0" ] ; \
 		then \
 			$(call echo_warning,"Unclean working tree. Commit or stash changes first.") ; \
@@ -175,7 +175,7 @@ push: sasslint jslint test
 #  * package.json version is new
 #------------------------------
 
-publish: sasslint jslint test
+publish: jslint test
 	@if [ "$(GIT_MODIFIED_FILE_COUNT)" != "0" ] ; \
 		then \
 			$(call echo_warning,"Unclean working tree. Commit or stash changes first.") ; \
