@@ -192,16 +192,16 @@ publish: jslint test
 	fi
 
 	@version="v$(PACKAGE_VERSION)" ; \
-		if [ -n "$(MESSAGE)" ] ; \
-			then message="$(MESSAGE)" ; \
-			else message="$${version}" ; \
-		fi ; \
-		git tag -a "$${version}" -m "$${message}" && git push origin "$${version}" ; \
-		$(call echo_success,"New GitHub release for $${version} successfully created"); \
-		if [ $(NPM) = 1 ] ; \
-			then \
-			npm publish ${GITHUB_PROJECT}/tarball/${NPM_VERSION}; \
-			$(call echo_success, New NPM release for v${NPM_VERSION} successfully created); \
+	if [ -n "$(MESSAGE)" ] ; \
+		then message="$(MESSAGE)" ; \
+		else message="$${version}" ; \
+	fi ; \
+	git tag -a "$${version}" -m "$${message}" && git push origin "$${version}" ; \
+	$(call echo_success,"New GitHub release for $${version} successfully created") ; \
+	if [ $(NPM) = 1 ] ; \
+		then \
+			npm publish ${GITHUB_PROJECT}/tarball/$${version} ; \
+			$(call echo_success, New NPM release for v$${version} successfully created) ; \
 	fi
 
 #------------------------------
